@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    19                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:59:19 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:59:54 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#List all services which are started at boot time and name this kind of services
+
+systemctl list-unit-files --type service | grep enabled
+
+#thats the command other way to do it is to go into ls /etc/init.d -l
+#script shows all enabled services from systemctl

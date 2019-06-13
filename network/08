@@ -1,0 +1,5 @@
+It's hosted by Amazon AWS.
+
+This is how I found the information. 
+1. From the last step I did a DNS query on slash16.org.
+2. Then did a whois search on 13.35.127.43 

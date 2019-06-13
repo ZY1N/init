@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    04                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:24:34 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:24:39 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Identifiy the default gateway in the routing table
+
+route -n get default | grep gateway | awk '{print $2}'
+
+#route pulls up the IP routing table and allows you to manually manipuate
+#bypass attempts to print host and network names when reporting actions
+#	aka to silence, it would work without it too
+
+#the default status is synonmous with 0, aka the first thing on the table

@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:28:05 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:28:09 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#What file contains the local DNS entries?
+
+/etc/hosts
+
+#the files are in etc/host
+#https://apple.stackexchange.com/questions/98021/how-can-i-display-the-current-dns-servers-from-the-command-line-under-os-x
+#local DNS is located on network where computer is attatched
+#DNS server is at your IPS

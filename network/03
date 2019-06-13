@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:24:01 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:24:05 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Identify the MAC address of the Wi-Fi card
+
+ifconfig en1 | grep ether | awk '{print $2}'
+
+#en1 is the default wifi (en0 is the default ethernet)
+#grep the ether address which is the MAC address 

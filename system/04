@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    04                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:43:19 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:43:23 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#What command gives you the time since your system was last booted?
+
+uptime
+
+#uptime is the command that shows how much time the system has been up for
+#the -s flag displays it in yyyy-mm-dd HH:MM:SS format

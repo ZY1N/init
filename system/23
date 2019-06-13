@@ -1,0 +1,12 @@
+#Explain how connect yourself as new user. (With graphic session and ssh session)
+
+SSH:
+- Type in 'ssh username@ip -p port' with the new username
+- Enter your password
+
+Graphical:
+Restart the VM and login as new user.
+- Literally restart the machine
+- Click the other user or add user
+- Enter password
+- Log in

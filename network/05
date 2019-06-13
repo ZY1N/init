@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    05                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:24:52 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:25:02 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Identify the IP address of the DNS that responds to the following url: slash16.org
+
+nslookup slash16.org | grep Server | awk '{print $2}'
+
+#nslookup querys Internet domain name servers
+#it has 2 modes, interactive and static
+#we are using static, other mode allows you other options

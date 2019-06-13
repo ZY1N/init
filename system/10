@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    10                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:54:31 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:54:36 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+#Name the command that lists the partition tables of drives?
+
+fdisk -l
+
+#fdisk is the command to display and/or manipulate a disk partition table
+#the l flag lists partitions and exits the interactive portion
+#you must be in root to use this command or use sudo command

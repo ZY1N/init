@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    21                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 13:01:00 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 13:01:17 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#List all real users on the VM
+
+ls /home
+
+#cat /etc/passwd | awk -F: '/home/ {print $1}' is another option
+#if you go to ls home than it will also show it to you

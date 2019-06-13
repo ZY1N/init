@@ -1,0 +1,6 @@
+#What file has to be modified to make it permanent?
+
+/etc/hostname
+
+#it has to be changed in the hostname file in order for it to be permanent
+#else it resets next time that you log on

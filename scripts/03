@@ -1,0 +1,138 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 13:06:19 by yinzhang          #+#    #+#              #
+#    Updated: 2019/05/03 23:43:52 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+
+i=1
+#while [ 1 ]
+#do
+    echo "meme"
+    if [ $(( $i % 2 )) == 0 ]
+    then
+        echo "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    else
+        echo "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    fi
+    i=$[i+1]
+echo '
+                      /^--^\     /^--^\     /^--^\
+                      \____/     \____/     \____/
+                     /      \   /      \   /      \
+A KAT Story         |        | |        | |        |
+                     \__  __/   \__  __/   \__  __/
+|^|^|^|^|^|^|^|^|^|^|^|^\ \^|^|^|^/ /^|^|^|^|^\ \^|^|^|^|^|^|^|^|^|^|^|^|
+| | | | | | | | | | | | |\ \| | |/ /| | | | | | \ \ | | | | | | | | | | |
+########################/ /######\ \###########/ /#######################
+| | | | | | | | | | | | \/| | | | \/| | | | | |\/ | | | | | | | | | | | |
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_| '
+
+sleep 2s
+
+echo  "
+
+
+
+
+
+
+
+                              'xXXXXXXXXXXXX0c      lXXXXXXXXXXXKocXXXXXXXXXXXXXX.
+                            .kWMMMMMMMMMMMNl.       dMMMMMMMMMWO' ;MMMMMMMMMMMMMM'
+                          'xWMMMMMMMMMMMNo.         dMMMMMMMWx'   ;MMMMMMMMMMMMMM'
+                        ;0WMMMMMMMMMMMXc            dMMMMWNx.     ;MMMMMMMMMMMMMM'
+                      ,OWMMMMMMMMMMMXl              dMMMNd.       ;MMMMMMMMMMMMMM'
+                    ;0WMMMMMMMMMMMKc                dMNd.         ;MMMMMMMMMMMMMM'
+                  ;0WMMMMMMMMMMMXc                  od.           ;MMMMMMMMMMMMMM'
+                c0WMMMMMMMMMMMKc                                 cKMMMMMMMMMMMW0:
+              ;KMMMMMMMMMMMMXc                                 ;KMMMMMMMMMMMMX:
+            cKMMMMMMMMMMMM0c                                 cKMMMMMMMMMMMW0:
+          ;KMMMMMMMMMMMM0,                                 ;KMMMMMMMMMMMM0,
+       .c0WMMMMMMMMMMM0:                                 cKMMMMMMMMMMMW0:
+      cXWMMMMMMMMMMM0,                                 cXMMMMMMMMMMMM0,
+    c0WMMMMMMMMMMMKc.                               .cKMMMMMMMMMMMM0:
+   lMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNc     dMMMMMMMMMMMMM0            .x.
+   lMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMc     dMMMMMMMMMMMMMO          .xWM'
+   lMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMc     dMMMMMMMMMMMMMO        .xWWMM'
+   lMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMc     dMMMMMMMMMMMMMO      'kWWMMMM'
+   lMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMc     dMMMMMMMMMMMMMO    .xWMMMMMMM'
+   :000000000000000000000000000KWMMMMMMMMMMMMMc     dMMMMMMMMMMMMMO  'kWMMMMMMMMM'
+                                OMMMMMMMMMMMMMc     dMMMMMMMMMMMMM0.xWMMMMMMMMMMM'
+                                OMMMMMMMMMMMMMc     .'''''''''''''..'''''''''''''
+                                OMMMMMMMMMMMMMc
+                                OMMMMMMMMMMMMMc
+                                OMMMMMMMMMMMMMc
+                                OMMMMMMMMMMMMMc
+                                oOOOOOOOOOOOOO;
+
+
+
+
+
+
+
+
+"
+sleep 1s
+
+echo '
+  /\_/\  (
+ ( ^.^ ) _)
+   \"/  (
+ ( | | )
+(__d b__)
+'
+sleep 1s
+echo '
+   |\__/.|   ( \
+   |o o  |__ _)
+ _.( T   )     /
+((_  ^--  /_<  \
+    - (((/  (((/
+'
+sleep 1s
+
+echo '
+		                    .............                .""".             .""".    
+            ..."""""             """""...       $   . ".         ." .   $    
+        ..""        .   .   .   .   .    ..    $   $$$. ". ... ." .$$$   $    
+      ."    . " . " . " . " . " . " . " .  "" ."  $$$"""  "   "  """$$$  ".   
+    ."      . " . " . " . " . " . " . " .     $  "                    "   $   
+   ."   . " . " . "           "   " . " . "  ."      ...          ...     ".  
+  ."    . " . "    .."""""""""...     " . "  $     .$"              "$.    $  
+ ."     . " . " .""     .   .    ""..   . " $ ".      .""$     .""$      ." $ 
+."    " . " .       . " . " . " .    $    " $ "      "  $$    "  $$       " $ 
+$     " . " . " . " . " . " . " . "   $     $             $$.$$             $ 
+$     " . " . " . " . " . " . " . " .  $  " $  " .        $$$$$        . "  $ 
+$     " . " . " . " . " . " . " . " .  $    $      "  ..   "$"   ..  "      $ 
+".    " . " . " . " . " . " . " . "   ."  "  $  . . . $  . .". .  $ . . .  $  
+ $    " . " . " . " . " . " . " . "  ."   "            ".."   ".."       
+  $     . " . " . " . " . " . "   .."   . " . "..    "             "    .."   
+  ".      " . " . " . " . " .  .""    " . " .    """$...         ...$"""      
+   ". "..     " . " . " . " .  "........  "    .....  ."""....."""            
+     ". ."$".....                       $..."$"$"."   $".$"... `":....        
+       "".."    $"$"$"$"""$........$"$"$"  ."."."  ...""      ."".    `"".    
+           """.$.$." ."  ."."."    ."."." $.$.$"""".......  ". ". $ ". ". $   
+                  """.$.$.$.$.....$.$.""""               ""..$..$."..$..$."
+
+		   
+
+'
+sleep 1s
+
+echo '
+    /\_/\           ___
+   = o_o =_______    \ \  -The End-
+    __^      __(  \.__) )
+(@)<_____>__(_____)____/
+'
+#done

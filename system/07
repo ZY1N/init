@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    07                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:51:48 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:51:58 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+#Figure out the PID of the SSHD service.
+
+cat /var/run/sshd.pid
+
+#this is the address by defaul that the PID is written by the ssh
+
+#ps aux | grep -e sshd | grep -v grep | tr -s " " | cut -d " " -f2
+#this is another way
+#it finds all the running processes and greps the sshd and processes it down to only the numbers

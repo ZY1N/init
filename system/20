@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    20                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:59:43 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 13:00:49 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#List all existing users on the VM
+
+cat /etc/passwd | awk -F: '{print $ 1}'
+
+#passwd shows all existing users on VM
+#-F is a field seperatior
+#just more control

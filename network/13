@@ -1,0 +1,13 @@
+#Thanks to the previous question and the reverse DNS find the name of your host
+
+dig +noall +answer -x 10.112.2.3
+3.2.112.10.in-addr.arpa. 86400	IN	PTR	e1z2r2p3.42.us.org.
+
+#replace the ip with whatever the current one is
+#from previous one or just go find it in en0
+#
+#-x flag is reverse lookup
+#so instead of turning a domain name to an IP address you are taking 
+#a IP address and looking for the domain name
+#
+#nslookup will work too

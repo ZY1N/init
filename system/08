@@ -1,0 +1,6 @@
+#What file contains the RSA keys of systems that are authorized to connect via SSH?
+
+~./ssh/id_rsa
+
+#the keys are stored in id_rsa
+#you need to gen key with ssh-keygen if it doesn't exist

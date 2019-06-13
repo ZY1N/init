@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    05                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:50:30 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:50:34 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Name the command that determines the state of the SSH service.
+
+/etc/init.d/ssh status
+
+#the ssh command is where it is and the status command pulls up the SSH service status
+#or /usr/sbin/service ssh status
+
+#the difference between service and init.d is that service sets up a clean environment

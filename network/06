@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:25:20 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:25:30 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Get the complete path of the file that contains the IP address of the DNS server you’re using
+
+
+cat /etc/resolv.conf
+
+#https://www.dnsknowledge.com/whatis/resolving-name-server/
+#the resolver is part of the DNS process, also holds connection to hardware

@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 11:13:18 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 11:13:32 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+# Get the list of the network interfaces of the machine without displaying any detail
+# for these interfaces. Only the list of names.
+
+ifconfig -l | tr " " "\n"
+
+#ifconfig access network interfaces
+#l flag lists the interfaces with no additional information
+#translate takes it blanks and transforms them into new lines

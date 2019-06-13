@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    17                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:58:33 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 13:00:12 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)
+
+ssh LOGIN@IP -p HOST_PORT
+
+#replace the login and ip address as well as host port

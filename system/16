@@ -1,0 +1,6 @@
+#Find the service which makes it possible to run specific tasks following a regular schedule
+
+/etc/init.d/cron 
+
+#cron is the daemon to execute scheduled commands 
+#a daemon is a program that runs as a background process

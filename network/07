@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    07                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:26:09 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:26:13 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)
+
+nslookup slash16.org 8.8.8.8
+
+# 8.8.8.8 is the DNS server of google
+# can also use dig @8.8.8.8 +short NS domain.thing
+#
+# It's asking for the ipaddress of the domain
+# It's a demand for information from computer to a DNS server

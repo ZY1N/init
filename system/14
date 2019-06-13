@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:57:35 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:57:40 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Run the ‘tail -f /var/log/syslog‘ command in background
+
+tail -f /var/log/syslog &
+
+#the ampersand tells it to play in the background

@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    15                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:58:03 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:58:05 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+#!/bin/bash
+
+#Find the command that kills the background command’s process
+
+pkill tail
+
+#to kill it use pkill and name
+#other way to do it is to use kill <pid>
+#use ps aux and greep it and kill pid

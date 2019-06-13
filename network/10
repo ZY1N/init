@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    10                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:26:36 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:26:41 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Identify the network devices between your computer and the slash16.org domain
+
+traceroute slash16.org
+
+#traceroute prints the route packets take to network host
+#aka where the packets are sent before it reaches the target

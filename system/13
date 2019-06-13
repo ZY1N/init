@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:57:03 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:57:05 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+#!/bin/bash
+
+#Name the command that find, in real time, currently running processes
+
+top 
+#ps aux
+
+#so both commands do this, but top is dynamic

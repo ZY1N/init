@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    12                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 12:27:14 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 12:27:18 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Find the IP that was assigned to you by dhcp server
+
+ipconfig getifaddr en0
+
+#could also find it through ipconfig -l and go manually find it and grep it

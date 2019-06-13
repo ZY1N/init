@@ -1,0 +1,32 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/04/26 11:13:42 by yinzhang          #+#    #+#              #
+#    Updated: 2019/04/26 11:15:33 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+
+#Identify and display the Ethernet interface characteristics:
+#(a) Identify broadcast address
+
+ifconfig en0 | grep broadcast | awk '{print $6}'
+
+#the broadcast portion is the broadcast address for the subnet
+
+
+
+#Identify and display the Ethernet interface characteristics:
+#(b) Identify all IP adresses which are part of the same subnet
+
+arp -a | grep e1
+
+#arp is the address resolution protocol cache
+#the -a flag displaces current arp cache tables for all interfaces
+
+#arp = address resolution protocl that maps ip address to corresponding physical address
